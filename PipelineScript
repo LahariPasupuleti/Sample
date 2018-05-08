@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  jmeter 'D:\Jmeter3.2\bin\jmeter.bat -n -t D:\Jmeter3.2\bin\JMeterJenkins.jmx -Jusers=4 -l test1.csv'
+}
